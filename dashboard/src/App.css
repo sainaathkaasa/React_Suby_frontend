@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.navSection{
+    /* border: 1px solid red; */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 77, 227);
+    align-items: center;
+    color: white;
+    padding: 0px 20px;
+    font-size: medium;
+}
+
+.sideBarSection{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 15%;
+    height: 95vh;
+    padding-top: 10px;
+    background-color: lightgray;
+}
+
+.sideBarSection ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.collectionSection{
+    display: flex;
+}
+
+.loginSection, .registerSection{
+    /* border: 1px solid red; */
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.authForm{
+    /* border: 1px solid green; */
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -200px;
+    border: 1px solid rgb(196, 194, 194);
+    border-radius: 10px;
+}
+
+.authForm label{
+    width: 100%;
+    max-width: 55%;
+    font-weight: 400;
+    padding-bottom: 3px;
+}
+
+.authForm input{
+    width: 100%;
+    max-width: 55%;
+    height: 1.4rem;
+}
+
+/* firmsection addFirm */
+
+.firmsection{
+    /* border: 1px solid red; */
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.tableForm{
+    /* border: 1px solid green; */
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -200px;
+    border: 1px solid rgb(196, 194, 194);
+    border-radius: 10px;
+}
+
+.tableForm input{
+    width: 100%;
+    max-width: 55%;
+    height: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.tableForm label{
+    width: 100%;
+    max-width: 55%;
+    font-weight: 400;
+    padding-bottom: 3px;
+}
+
+.check-inp{
+    /* border: 1px solid green ; */
+    width: 100%;
+    max-width: 56%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.check-inp label{
+    width: 30%;
+    /* border: 1px solid orange; */
+    
+}
+
+.inputsContainer{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+}
+
+.checkBoxContainer{
+    /* border: 1px solid gray; */
+    width: 100%;
+    /* max-width: 50%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3px;
+    border-radius: 10px;
+}
+
+.checkBoxContainer label{
+    width: 100%;
+    max-width: 90%;
+    /* border: 1px solid red; */
+}
+
+.inputContainer, .RadioContainerGroup{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    max-width: 50%;
+}
+
